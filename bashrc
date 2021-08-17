@@ -28,9 +28,6 @@ function bash_prompt(){
 }
 bash_prompt
 
-alias weather='curl wttr.in/~Helsinki'
-alias weather-rain='curl v2d.wttr.in/Helsinki'
-
 export PATH="$HOME/.pyenv/bin:$PATH"
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
