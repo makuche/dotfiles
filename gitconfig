@@ -1,0 +1,9 @@
+[user]
+	name = Manuel Kuchelmeister
+	email = manuel.kuchelmeister@web.de
+[core]
+	editor = code -nw
+[diff]
+	tool = meld
+[alias]
+	graph = log --all --graph --decorate --oneline
