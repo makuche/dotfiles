@@ -15,20 +15,11 @@ if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
 
-# Display the current Git branch in the Bash prompt.
-function git_branch() {
-    if [ -d .git ] ; then
-        printf "%s" "($(git branch 2> /dev/null | awk '/\*/{print $2}'))";
-    fi
-}
-
-# Set the prompt.
-function bash_prompt(){
-    PS1='${debian_chroot:+($debian_chroot)}'${blu}'$(git_branch)'${pur}' \W'${grn}' \$ '${clr}
-}
-bash_prompt
+# Custom prompt
+source ~/.bashprompt
 
 export PATH="$HOME/.pyenv/bin:$PATH"
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 
+source /home/manuel/.config/broot/launcher/bash/br
