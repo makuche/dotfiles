@@ -10,10 +10,14 @@ HISTSIZE=1000
 HISTFILESIZE=2000
 HISTTIMEFORMAT="%F %T "
 
+
 # Alias definitions.
 if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
+
+# Expand aliases defined in the shell ~/.bashrc
+shopt -s expand_aliases
 
 # Custom prompt
 source ~/.bashprompt

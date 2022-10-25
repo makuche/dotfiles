@@ -17,6 +17,14 @@ alias puhti='ssh kuchelm1@puhti.csc.fi'
 alias workstats='cd /home/manuel/Dropbox/Programming/ulogme && python ulogme_serve.py'
 alias ulogme='cd /home/manuel/Dropbox/Programming/ulogme && ./ulogme.sh'
 alias thesis='cd /home/manuel/Dropbox/Studium/Master/Thesis_Project/thesis/'
-alias Dropbox='cd /home/manuel/Dropbox/'
+alias dropbox='cd /home/manuel/Dropbox/'
+alias prog='cd /home/manuel/Dropbox/Programming/'
 alias open='xdg-open'
 alias br='br -sgp'	# shows size, git status and permissions on files
+alias deno='/home/manuel/.deno/bin/deno'
+alias deno_help='/home/manuel/.deno/bin/deno --help'
+alias mp3-dl='yt-dlp -x --audio-format mp3'
+alias flyctl='/home/manuel/.fly/bin/flyctl'
+
+# activate boss-developer environment
+alias boss_dev='source /home/manuel/Dropbox/Programming/envs/boss-dev/bin/activate'
