@@ -4,6 +4,6 @@
 [core]
 	editor = code -nw
 [diff]
-	tool = meld
+	tool = vscode	
 [alias]
 	graph = log --all --graph --decorate --oneline
